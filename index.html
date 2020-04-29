@@ -2,43 +2,48 @@
 <html lang="pt-br">
 <head>
 	
-    <title>Ajude um Vizinho</title>
+    <title>Vizinho Solidário</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     
        
-    <header class="menu-bg"> 
-        <div class="menu">
+    <header class="menu"> 
+        <div class="container">
+            <a class="menu-logo" href="#"><img src="img/maosdadas.png" alt="maosdadas"></a>
             <nav class="menu-nav">
                 <ul>
-                    <li><a href="#sobre"></a>Sobre</li>
-                    <li><a href="#cadstro"></a>Cadastro</li>
-                    <li><a href="#contato"></a>Contato</li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="conteudo_sobre" id="sobre">
+    <section class="sobre" id="sobre">
         <h1>Sobre</h1>
-        <div class="sobre_texto">
-            <p>- Sabemos que muitos não irão conseguir ajuda, por isso nós buscamos uma forma de aproximar quem precisa de quem pode ajudar, 
-            você que está precisando irá infomrar aqui depois de se cadastrar qual sua necessidade, vale lembrar que nós do ajude um vizinho,
-            iformamos que nosso intuito é sanar necessidades básicas.</p>
-        </div>
-       
-        <div class="sobre_imagem">
+        <div class="container">
+        <div class="sobre-item">
             <img src="https://i.pinimg.com/474x/0f/f4/8a/0ff48ac23232e289be4be2adc2801a08.jpg" alt="Amigos">
+        </div>
+
+        <div class="sobre-item">
+            <p>- Sabemos que muitos não irão conseguir ajuda, por isso nós buscamos uma forma de aproximar quem precisa de quem pode ajudar, 
+            você que está precisando irá infomrar aqui depois de se cadastrar qual sua necessidade, vale lembrar que nós do vizinho solidário,
+            iformamos que nosso intuito é ajudá-los a sanar as necessidades básicas.</p>
+        </div>
+
         </div>
     </section>
 
-    <section class="container" id="cadstro">
+    <section class="cadastro" id="cadastro">
         <h2>Cadastro</h2>
-             <form id="form_cadastro" class="cadastro">
+        <div class="container">
+             <form id="form-cadastro" class="cadastro">
                 <label for="nome">Nome</label><br>
                 <input type="text" id="nome"><br>
                 <label for="sobrenome">Sobrenome</label><br>
@@ -49,14 +54,20 @@
                 <input type="text" id="telefone"><br>
                 <label for="espec">Necessidade</label><br>
                 <textarea id="espec"></textarea><br>
+                <a class="btn" href="#">Cadastrar</a>
             </form>
-            <button @click>Aceitar</button>
+          
+        </div>
+    </section>  
 
-     <section class="conteudo-contato" id="contato">
+
+     <section class="contato" id="contato">
         <h3>Contato</h3>
+        <div>
 
+        </div>
 
-     </section>       
+           
         
 
   

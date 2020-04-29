@@ -1,7 +1,7 @@
 
 /*Body*/
 
-body, h1 , h2 , p , a {
+body, h1 ,h2 ,p ,ul ,li ,a {
     margin: 0px;
     padding: 0px;
 }
@@ -25,6 +25,12 @@ img {
     max-width: 100%;
 }
 
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 
 * {
     box-sizing: border-box;
@@ -34,45 +40,115 @@ img {
 
 /*Menu*/
 
-.menu-bg {
-    background: blue;
+.menu {
+    background: #252525;
+    padding: 15px 0;
 }
 
-.menu {
-    background: rgb(91, 91, 248);
-    max-width: 960px;	
-	margin: 0 auto;
-	padding: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.menu-nav a {
+    text-decoration: none;
+    font-size: 1.125em;
+}
+
+.menu-logo {
+    margin: 0 10px;
+}
+
+.menu-nav {
+    flex: 1;
+    margin: 0 10px;
+    align-self: center;
 }
 
 .menu-nav ul {
-	display: flex;
-    flex-wrap: wrap;
-
+    float: right;
+    display: flex;
+    list-style: none;
 }
 
-
-.menu-nav a {
-	font-size: 1.25em;
-    display: block;
+.menu-nav ul, li, a {
     padding: 10px;
-    justify-content: space-between; 
-  
+    color: #e7e9e7;
+    width: 0 10px;
 }
 
-.menu-nav a:hover {
-    color: #555;
+
+/*Sobre*/
+
+.sobre {
+  display: block;
 }
 
-  
+.sobre > h1 {
+    margin: 60px;
+    text-align: start;
+    margin-top: 5px;
+    padding: 60px 0;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sobre-item {
+    flex: 1;
+    max-width: 420px;
+}
+
+.sobre-item img {
+    display: block;
+    max-width: 100%;
+}
+
+.sobre-item > p {
+    margin: 0 10px; 
+    font-style: italic;
+	font-weight: bold;
+    font-size: 1.125em;
+    line-height: 2.25em;
+}
+
+/*Cadastro*/
+
+.cadastro  h2 {
+    margin: 60px;
+    text-align: start;
+    margin-top: 5px;
+    padding: 80px 0;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
 
 
 
-/*Section imagem*/
+.cadastro a {
+    width: 24px;
+    height: 24px;
+    color:#252525;
+    background: #b2b4b2;
+    padding: 10px;
+    top: 200px;
+}
+
+
+
+
+
+
+
+
+
+/*Contato*/
+
+.contato > h3 {
+    margin: 60px;
+    text-align: start;
+    margin-top: 5px;
+    padding: 60px 0;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
 
 
 
