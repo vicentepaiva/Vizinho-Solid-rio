@@ -148,14 +148,19 @@ img {
 }
 
 .cadastro-form {
+    width: 50%;
     background: #b2b4b2;
     border: 2px solid #b2b4b2;
-    ;
     font-size: 1.125em;
     padding: 20px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
     text-align: initial;
 }
+
+.cadastro-form input, textarea {
+    width: 100%;
+}
+
 
 
 
